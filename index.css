@@ -1,0 +1,254 @@
+* {
+    font-family: 'Montserrat';
+    max-width: 1440px;
+    box-sizing: border-box;
+    margin: 0;
+    border: 0;
+}
+
+#logo {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    background: #FFC107;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+#nav {
+    display: flex;
+    background: #FFA000;
+    height: 48px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+li {
+    display: inline;
+    padding: 0 20px 0 20px;
+    height: 24px;
+}
+
+li a {
+    color: #fdfdfd;
+}
+
+.text-deco-none {
+    text-decoration: none;
+}
+
+h1 {
+    color: #FFA000;
+    flex-basis: 100%;
+}
+
+#receitas-rel>h1 {
+    font-size: 30px;
+    margin-top: 250px;
+}
+
+
+#titulo-receita {
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 61px;
+    margin-top: 155px;
+}
+
+#titulo-receita+img {
+    width: 592px;
+    height: 311px;
+    left: 120px;
+    top: 361px;
+    background: #C4C4C4;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    font-family: 'Montserrat';
+    padding: 0;
+    margin: 0;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.pos-rel {
+    position: relative;
+}
+
+.pos-absolute {
+    position: absolute;
+}
+
+.largura-max {
+    max-width: 580px;
+}
+
+button {
+    border: 1px solid #176902;
+    border-radius: 47px;
+    box-sizing: border-box;
+    margin: 32px 20px 0 0;
+}
+
+button p {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    text-transform: lowercase;
+    padding: 5px 15px 5px 15px;
+    margin: 0;
+    color: #176902;
+}
+
+.font-size-20px {
+    font-size: 20px;
+}
+
+iframe {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+}
+
+.receitas-rel {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    text-align: center;
+    margin: 0 0 40px 0;
+    padding: 0 5px 15px 5px;
+}
+
+footer {
+    display: flex;
+    background: #FFC107;
+    color: #fdfdfd;
+    align-items: center;
+}
+
+footer img {
+    width: 324px;
+    height: 84px;
+    left: 6px;
+}
+
+.card-receita {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px 50px 30px 50px;
+}
+
+
+.card-receita img {
+    height: 342px;
+    width: 345px;
+    object-fit: cover;
+}
+
+.card-receita h2 {
+    margin: 15px 0 0 0;
+}
+
+.card-receita button {
+    background: #176902;
+    border-radius: 0;
+    color: #FFFFFF;
+    width: 185px;
+    height: 48px;
+    font-size: 24px;
+    margin: 15px 0 0 0;
+}
+
+#titulo-lista-receitas {
+    margin: 100px 0 0 60px;
+}
+
+#banner-contato {
+    display: flex;
+    flex-basis: 100%;
+    height: 405px;
+    background-image: url("assets/contato.png");
+    background-position: center;
+    background-size: cover;
+}
+
+#banner-contato p {
+    color: #ffff;
+    font-size: 4rem;
+    margin-top: 5%;
+    margin-left: 10%;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.36);
+}
+
+#main-contato {
+    margin: 5% 0 5% 0;
+    display: flex;
+    align-content: center;
+    gap: 20px;
+    width: 80%;
+}
+
+#main-contato aside {
+    width: 350px;
+    height: 771px;
+}
+
+#main-contato aside img {
+    border-radius: 20px;
+    object-fit: cover;
+    max-width: 100%;
+    height: 100%;
+}
+
+#contato {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    border-radius: 20px;
+    border: 1px solid #FFA000;
+    flex-grow: 4;
+}
+
+#contato h1 {
+    flex-basis: auto;
+    margin: 5% 0 0 5%;
+}
+
+#contato form {
+    display: flex;
+    margin: 10% 0 0 5%;
+    flex-direction: column;
+    flex-grow: 5;
+}
+
+#contato form>* {
+    max-width: 95%;
+}
+
+#contato form input {
+    border: 1px solid #FFA000;
+    border-radius: 7px;
+    height: 45px;
+    margin-bottom: 10px;
+    padding-left: 5%;
+}
+
+#contato #mensagem {
+    height: 60%;
+    padding-bottom: 45%;
+}
+
+#contato button {
+    height: 45px;
+    width: 150px;
+    background: #FFC107;
+    border-radius: 50px;
+    border-style: hidden;
+}
