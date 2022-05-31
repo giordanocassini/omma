@@ -179,12 +179,15 @@ footer img {
     background-size: cover;
 }
 
-#banner-contato p {
+.title-banner {
     color: #ffff;
     font-size: 4rem;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.36);
+}
+
+#banner-contato p {
     margin-top: 5%;
     margin-left: 10%;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.36);
 }
 
 #main-contato {
@@ -251,4 +254,66 @@ footer img {
     background: #FFC107;
     border-radius: 50px;
     border-style: hidden;
+}
+
+#banner-home {
+    display: flex;
+    flex-basis: 100%;
+    justify-content: end;
+    align-items: center;
+    height: 648px;
+    background: linear-gradient(0deg, rgba(255, 160, 0, 0.3), rgba(255, 160, 0, 0.3)), url("assets/home.png");
+    background-position: center;
+    background-size: cover;
+}
+
+#banner-home p {
+    margin-right: 5%;
+}
+
+#week-receipits {
+    flex-basis: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+#week-receipits h1 {
+    margin-top: 4%;
+    margin-left: 40%;
+    font-size: 3rem;
+}
+
+.occupy-whole-line {
+    flex-basis: 100%;
+}
+
+#article {
+    background: linear-gradient(0deg, rgba(255, 160, 0, 0.3), rgba(255, 160, 0, 0.3)), url("assets/article.png");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-basis: 100%;
+    height: 772px;
+}
+
+#article h1 {
+    font-weight: 700;
+    font-size: 65px;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#article p {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    max-width: 424px;
+    margin-top: 15%;
+}
+
+#article article {
+    margin: 15% 0 0 8%;
 }
